@@ -1,9 +1,9 @@
-from manimlib.imports import *
+from functools import reduce
 
+from manimlib.imports import *
 from tqdm import tqdm as ProgressDisplay
 
 from .waves import *
-from functools import reduce
 
 #force_skipping
 #revert_to_original_skipping_status

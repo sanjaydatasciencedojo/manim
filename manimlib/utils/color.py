@@ -1,10 +1,8 @@
 import random
 
-from colour import Color
 import numpy as np
-
-from manimlib.constants import PALETTE
-from manimlib.constants import WHITE
+from colour import Color
+from manimlib.constants import PALETTE, WHITE
 from manimlib.utils.bezier import interpolate
 from manimlib.utils.simple_functions import clip_in_place
 from manimlib.utils.space_ops import normalize

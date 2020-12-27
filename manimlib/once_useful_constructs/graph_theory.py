@@ -1,9 +1,8 @@
-from functools import reduce
 import itertools as it
 import operator as op
+from functools import reduce
 
 import numpy as np
-
 from manimlib.constants import *
 from manimlib.scene.scene import Scene
 from manimlib.utils.rate_functions import there_and_back

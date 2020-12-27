@@ -1,18 +1,13 @@
 import inspect
 
 import numpy as np
-
 from manimlib.animation.animation import Animation
-from manimlib.constants import DEFAULT_POINTWISE_FUNCTION_RUN_TIME
-from manimlib.constants import OUT
-from manimlib.constants import DEGREES
-from manimlib.mobject.mobject import Group
-from manimlib.mobject.mobject import Mobject
+from manimlib.constants import (DEFAULT_POINTWISE_FUNCTION_RUN_TIME, DEGREES,
+                                OUT)
+from manimlib.mobject.mobject import Group, Mobject
 from manimlib.utils.config_ops import digest_config
-from manimlib.utils.paths import path_along_arc
-from manimlib.utils.paths import straight_path
-from manimlib.utils.rate_functions import smooth
-from manimlib.utils.rate_functions import squish_rate_func
+from manimlib.utils.paths import path_along_arc, straight_path
+from manimlib.utils.rate_functions import smooth, squish_rate_func
 
 
 class Transform(Animation):

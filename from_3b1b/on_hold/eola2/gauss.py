@@ -1,7 +1,7 @@
 from fractions import Fraction
+from functools import reduce
 
 from manimlib.imports import *
-from functools import reduce
 
 
 class FractionMobject(VGroup):

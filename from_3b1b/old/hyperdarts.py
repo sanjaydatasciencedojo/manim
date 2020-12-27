@@ -1,6 +1,5 @@
 from manimlib.imports import *
 
-
 OUTPUT_DIRECTORY = "hyperdarts"
 BROWN_PAPER = "#958166"
 

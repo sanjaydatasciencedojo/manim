@@ -1,8 +1,6 @@
 
+from from_3b1b.old.div_curl import VectorField, get_force_field_func
 from manimlib.imports import *
-
-from from_3b1b.old.div_curl import VectorField
-from from_3b1b.old.div_curl import get_force_field_func
 
 COBALT = "#0047AB"
 

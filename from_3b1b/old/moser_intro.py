@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 
-import numpy as np
 import itertools as it
 import operator as op
 from copy import deepcopy
 
+import numpy as np
 from manimlib.imports import *
 
 RADIUS = FRAME_Y_RADIUS - 0.1

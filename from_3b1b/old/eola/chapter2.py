@@ -1,5 +1,6 @@
-from manimlib.imports import *
 from from_3b1b.old.eola.chapter1 import plane_wave_homotopy
+from manimlib.imports import *
+
 
 class OpeningQuote(Scene):
     def construct(self):

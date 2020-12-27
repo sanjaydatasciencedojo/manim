@@ -1,5 +1,6 @@
-from manimlib.imports import *
 import json
+
+from manimlib.imports import *
 
 
 class IntroduceIMO(Scene):

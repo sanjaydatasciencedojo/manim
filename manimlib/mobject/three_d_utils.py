@@ -1,9 +1,6 @@
 import numpy as np
-
-from manimlib.constants import ORIGIN
-from manimlib.constants import UP
-from manimlib.utils.space_ops import get_norm
-from manimlib.utils.space_ops import get_unit_normal
+from manimlib.constants import ORIGIN, UP
+from manimlib.utils.space_ops import get_norm, get_unit_normal
 
 
 def get_3d_vmob_gradient_start_and_end_points(vmob):

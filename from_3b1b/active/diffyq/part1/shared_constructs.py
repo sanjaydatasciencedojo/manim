@@ -1,6 +1,5 @@
 from manimlib.imports import *
 
-
 Lg_formula_config = {
     "tex_to_color_map": {
         "\\theta_0": WHITE,

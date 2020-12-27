@@ -1,10 +1,10 @@
-import numpy as np
 import itertools as it
 
+import numpy as np
+from from_3b1b.old.brachistochrone.curves import (RANDY_SCALE_FACTOR, Cycloid,
+                                                  PathSlidingScene,
+                                                  TryManyPaths)
 from manimlib.imports import *
-
-from from_3b1b.old.brachistochrone.curves import \
-    Cycloid, PathSlidingScene, RANDY_SCALE_FACTOR, TryManyPaths
 
 
 class Lens(Arc):

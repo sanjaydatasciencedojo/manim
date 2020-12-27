@@ -1,5 +1,6 @@
 from manimlib.imports import *
 
+
 class CountingScene(Scene):
     CONFIG = {
         "base" : 10,

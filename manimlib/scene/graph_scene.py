@@ -1,22 +1,17 @@
 import itertools as it
 
-from manimlib.animation.creation import Write, DrawBorderThenFill, ShowCreation
+from manimlib.animation.creation import DrawBorderThenFill, ShowCreation, Write
 from manimlib.animation.transform import Transform
 from manimlib.animation.update import UpdateFromAlphaFunc
 from manimlib.constants import *
 from manimlib.mobject.functions import ParametricFunction
-from manimlib.mobject.geometry import Line
-from manimlib.mobject.geometry import Rectangle
-from manimlib.mobject.geometry import RegularPolygon
+from manimlib.mobject.geometry import Line, Rectangle, RegularPolygon
 from manimlib.mobject.number_line import NumberLine
-from manimlib.mobject.svg.tex_mobject import TexMobject
-from manimlib.mobject.svg.tex_mobject import TextMobject
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VectorizedPoint
+from manimlib.mobject.svg.tex_mobject import TexMobject, TextMobject
+from manimlib.mobject.types.vectorized_mobject import VectorizedPoint, VGroup
 from manimlib.scene.scene import Scene
 from manimlib.utils.bezier import interpolate
-from manimlib.utils.color import color_gradient
-from manimlib.utils.color import invert_color
+from manimlib.utils.color import color_gradient, invert_color
 from manimlib.utils.space_ops import angle_of_vector
 
 # TODO, this should probably reimplemented entirely, especially so as to

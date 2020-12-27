@@ -1,5 +1,7 @@
-from manimlib.imports import *
 from random import *
+
+from manimlib.imports import *
+
 
 def text_range(start,stop,step): # a range as a list of strings
     numbers = np.arange(start,stop,step)

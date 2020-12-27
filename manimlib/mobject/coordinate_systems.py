@@ -1,15 +1,13 @@
-import numpy as np
 import numbers
 
+import numpy as np
 from manimlib.constants import *
 from manimlib.mobject.functions import ParametricFunction
-from manimlib.mobject.geometry import Arrow
-from manimlib.mobject.geometry import Line
+from manimlib.mobject.geometry import Arrow, Line
 from manimlib.mobject.number_line import NumberLine
 from manimlib.mobject.svg.tex_mobject import TexMobject
 from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.utils.config_ops import digest_config
-from manimlib.utils.config_ops import merge_dicts_recursively
+from manimlib.utils.config_ops import digest_config, merge_dicts_recursively
 from manimlib.utils.simple_functions import binary_search
 from manimlib.utils.space_ops import angle_of_vector
 

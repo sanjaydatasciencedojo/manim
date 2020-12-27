@@ -1,6 +1,5 @@
-from manimlib.imports import *
 from from_3b1b.old.eola.footnote2 import TwoDTo1DTransformWithDots
-
+from manimlib.imports import *
 
 V_COLOR = YELLOW
 W_COLOR = MAROON_B

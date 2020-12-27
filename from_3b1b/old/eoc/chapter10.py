@@ -1,5 +1,6 @@
 from manimlib.imports import *
 
+
 def derivative(func, x, n = 1, dx = 0.01):
     samples = [func(x + (k - n/2)*dx) for k in range(n+1)]
     while len(samples) > 1:

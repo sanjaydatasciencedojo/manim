@@ -1,5 +1,6 @@
-from manimlib.imports import *
 from from_3b1b.old.eoc.chapter4 import ThreeLinesChainRule
+from manimlib.imports import *
+
 
 class ExpFootnoteOpeningQuote(OpeningQuote):
     CONFIG = {

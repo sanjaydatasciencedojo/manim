@@ -1,6 +1,6 @@
+from ka_playgrounds.circuits import LongResistor, Resistor, Source
 from manimlib.imports import *
 
-from ka_playgrounds.circuits import Resistor, Source, LongResistor
 
 class OpeningQuote(Scene):
     def construct(self):

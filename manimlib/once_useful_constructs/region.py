@@ -1,5 +1,5 @@
-from copy import deepcopy
 import itertools as it
+from copy import deepcopy
 
 from manimlib.constants import *
 from manimlib.mobject.mobject import Mobject

@@ -1,5 +1,5 @@
-from manimlib.imports import *
 from from_3b1b.old.quaternions import *
+from manimlib.imports import *
 
 W_COLOR = YELLOW
 I_COLOR = GREEN

@@ -1,7 +1,8 @@
 
-from manimlib.imports import *
-from active_projects.eop.reusable_imports import *
 from active_projects.eop.chapter1.brick_row_scene import BrickRowScene
+from active_projects.eop.reusable_imports import *
+from manimlib.imports import *
+
 
 class EntireBrickWall(BrickRowScene, MovingCameraScene):
 

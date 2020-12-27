@@ -1,5 +1,5 @@
-from manimlib.imports import *
 from active_projects.eop.reusable_imports import *
+from manimlib.imports import *
 
 
 class ProbabilityDistributions(PiCreatureScene):

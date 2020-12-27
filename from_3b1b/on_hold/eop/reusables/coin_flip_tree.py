@@ -1,6 +1,7 @@
-from mobject.geometry import *
-from active_projects.eop.reusables.eop_helpers import *
 from active_projects.eop.reusables.eop_constants import *
+from active_projects.eop.reusables.eop_helpers import *
+from mobject.geometry import *
+
 
 class CoinFlipTree(VGroup):
     CONFIG = {

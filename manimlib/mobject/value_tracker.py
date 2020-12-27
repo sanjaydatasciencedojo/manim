@@ -1,5 +1,4 @@
 import numpy as np
-
 from manimlib.mobject.mobject import Mobject
 
 

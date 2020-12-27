@@ -1,14 +1,8 @@
-from manimlib.imports import *
-
 import displayer as disp
-
-from hilbert.curves import \
-    TransformOverIncreasingOrders, FlowSnake, HilbertCurve, \
-    SnakeCurve
-
-
 from constants import *
-
+from hilbert.curves import (FlowSnake, HilbertCurve, SnakeCurve,
+                            TransformOverIncreasingOrders)
+from manimlib.imports import *
 
 
 def get_grid():

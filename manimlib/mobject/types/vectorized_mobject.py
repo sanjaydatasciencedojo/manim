@@ -2,22 +2,18 @@ import itertools as it
 import sys
 
 from colour import Color
-
 from manimlib.constants import *
 from manimlib.mobject.mobject import Mobject
-from manimlib.mobject.three_d_utils import get_3d_vmob_gradient_start_and_end_points
-from manimlib.utils.bezier import bezier
-from manimlib.utils.bezier import get_smooth_handle_points
-from manimlib.utils.bezier import interpolate
-from manimlib.utils.bezier import integer_interpolate
-from manimlib.utils.bezier import partial_bezier_points
+from manimlib.mobject.three_d_utils import \
+    get_3d_vmob_gradient_start_and_end_points
+from manimlib.utils.bezier import (bezier, get_smooth_handle_points,
+                                   integer_interpolate, interpolate,
+                                   partial_bezier_points)
 from manimlib.utils.color import color_to_rgba
-from manimlib.utils.iterables import make_even
-from manimlib.utils.iterables import stretch_array_to_length
-from manimlib.utils.iterables import tuplify
+from manimlib.utils.iterables import (make_even, stretch_array_to_length,
+                                      tuplify)
 from manimlib.utils.simple_functions import clip_in_place
-from manimlib.utils.space_ops import rotate_vector
-from manimlib.utils.space_ops import get_norm
+from manimlib.utils.space_ops import get_norm, rotate_vector
 
 # TODO
 # - Change cubic curve groups to have 4 points instead of 3

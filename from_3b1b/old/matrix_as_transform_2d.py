@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-import numpy as np
 import itertools as it
-from copy import deepcopy
 import sys
+from copy import deepcopy
 
+import numpy as np
 from manimlib.imports import *
 
 ARROW_CONFIG = {"stroke_width" : 2*DEFAULT_STROKE_WIDTH}

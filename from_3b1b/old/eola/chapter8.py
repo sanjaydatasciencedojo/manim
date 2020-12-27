@@ -1,6 +1,5 @@
+from from_3b1b.old.eola.chapter5 import RightHandRule, get_det_text
 from manimlib.imports import *
-from from_3b1b.old.eola.chapter5 import get_det_text, RightHandRule
-
 
 U_COLOR = ORANGE
 V_COLOR = YELLOW

@@ -1,8 +1,7 @@
 import inspect
-import numpy as np
 
-from manimlib.constants import DEGREES
-from manimlib.constants import RIGHT
+import numpy as np
+from manimlib.constants import DEGREES, RIGHT
 from manimlib.mobject.mobject import Mobject
 
 

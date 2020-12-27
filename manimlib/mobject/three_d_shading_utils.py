@@ -1,5 +1,4 @@
 import numpy as np
-
 from manimlib.constants import ORIGIN
 from manimlib.utils.space_ops import get_unit_normal
 

@@ -1,6 +1,7 @@
+import warnings
+
 from manimlib.imports import *
 
-import warnings
 warnings.warn("""
     Warning: This file makes use of
     ContinualAnimation, which has since
@@ -10,6 +11,7 @@ warnings.warn("""
 import time
 
 import mpmath
+
 mpmath.mp.dps = 7
 
 

@@ -1,7 +1,5 @@
+from from_3b1b.old.clacks.question import Block, ClackFlashes, Wall
 from manimlib.imports import *
-from from_3b1b.old.clacks.question import Block
-from from_3b1b.old.clacks.question import Wall
-from from_3b1b.old.clacks.question import ClackFlashes
 
 
 class PositionPhaseSpaceScene(Scene):

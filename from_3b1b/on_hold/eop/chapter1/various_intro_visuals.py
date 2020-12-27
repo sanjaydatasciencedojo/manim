@@ -1,9 +1,10 @@
-from manimlib.imports import *
-from active_projects.eop.reusable_imports import *
+import itertools as it
+
 from active_projects.eop.combinations import *
 from active_projects.eop.independence import *
+from active_projects.eop.reusable_imports import *
+from manimlib.imports import *
 
-import itertools as it
 
 class RandyFlipsAndStacks(Scene):
 

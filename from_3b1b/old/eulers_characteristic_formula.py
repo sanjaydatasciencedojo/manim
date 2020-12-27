@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 
 
-import numpy as np
 import itertools as it
-from copy import deepcopy
 import sys
+from copy import deepcopy
 
-
-from animation import *
-from mobject import *
-from constants import *
-from mobject.region import  *
 import displayer as disp
-from scene.scene import Scene, GraphScene
+import numpy as np
+from animation import *
+from constants import *
+from mobject import *
+from mobject.region import *
 from scene.graphs import *
-from .moser_main import EulersFormula
+from scene.scene import GraphScene, Scene
 from script_wrapper import command_line_create_scene
+
+from .moser_main import EulersFormula
 
 MOVIE_PREFIX = "ecf_graph_scenes/"
 RANDOLPH_SCALE_FACTOR = 0.3

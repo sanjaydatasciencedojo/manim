@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
-import scipy
-from manimlib.imports import *
-from from_3b1b.old.fourier import *
-
 import warnings
+
+import scipy
+from from_3b1b.old.fourier import *
+from manimlib.imports import *
+
 warnings.warn("""
     Warning: This file makes use of
     ContinualAnimation, which has since

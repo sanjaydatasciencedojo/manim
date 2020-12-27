@@ -1,6 +1,5 @@
 from manimlib.constants import *
-from manimlib.mobject.types.vectorized_mobject import VMobject
-from manimlib.mobject.types.vectorized_mobject import VGroup
+from manimlib.mobject.types.vectorized_mobject import VGroup, VMobject
 from manimlib.utils.rate_functions import smooth
 from manimlib.utils.space_ops import get_norm
 

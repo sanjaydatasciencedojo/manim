@@ -18,8 +18,9 @@ import random
 
 # Third-party libraries
 import numpy as np
-from PIL import Image
 from nn.mnist_loader import load_data_wrapper
+from PIL import Image
+
 # from utils.space_ops import get_norm
 
 NN_DIRECTORY = os.path.dirname(os.path.realpath(__file__))

@@ -1,9 +1,7 @@
 from manimlib.constants import *
 from manimlib.mobject.mobject import Mobject
 from manimlib.utils.bezier import interpolate
-from manimlib.utils.color import color_gradient
-from manimlib.utils.color import color_to_rgba
-from manimlib.utils.color import rgba_to_color
+from manimlib.utils.color import color_gradient, color_to_rgba, rgba_to_color
 from manimlib.utils.config_ops import digest_config
 from manimlib.utils.iterables import stretch_array_to_length
 from manimlib.utils.space_ops import get_norm

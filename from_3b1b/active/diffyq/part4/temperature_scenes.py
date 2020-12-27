@@ -1,6 +1,6 @@
-from manimlib.imports import *
 from active_projects.diffyq.part2.heat_equation import BringTwoRodsTogether
 from active_projects.diffyq.part3.staging import FourierSeriesIllustraiton
+from manimlib.imports import *
 
 
 class StepFunctionExample(BringTwoRodsTogether, FourierSeriesIllustraiton):

@@ -1,15 +1,15 @@
 import html
+import re
+
 from manimlib.constants import *
 from manimlib.container.container import Container
-from manimlib.mobject.geometry import Rectangle, Dot, RoundedRectangle
+from manimlib.mobject.geometry import Dot, Rectangle, RoundedRectangle
 from manimlib.mobject.shape_matchers import SurroundingRectangle
 from manimlib.mobject.svg.text_mobject import Paragraph
 from manimlib.mobject.types.vectorized_mobject import VGroup
-
-import re
 from pygments import highlight
-from pygments.lexers import get_lexer_by_name
 from pygments.formatters.html import HtmlFormatter
+from pygments.lexers import get_lexer_by_name
 
 '''
 1) Code is VGroup() with three things

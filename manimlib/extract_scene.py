@@ -6,10 +6,9 @@ import subprocess as sp
 import sys
 import traceback
 
-from manimlib.scene.scene import Scene
-from manimlib.utils.sounds import play_error_sound
-from manimlib.utils.sounds import play_finish_sound
 import manimlib.constants
+from manimlib.scene.scene import Scene
+from manimlib.utils.sounds import play_error_sound, play_finish_sound
 
 
 def open_file_if_needed(file_writer, **config):

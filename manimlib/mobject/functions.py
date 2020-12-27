@@ -1,7 +1,8 @@
+import math
+
 from manimlib.constants import *
 from manimlib.mobject.types.vectorized_mobject import VMobject
 from manimlib.utils.config_ops import digest_config
-import math
 
 
 class ParametricFunction(VMobject):

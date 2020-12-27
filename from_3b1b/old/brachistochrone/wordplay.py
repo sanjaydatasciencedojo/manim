@@ -1,9 +1,10 @@
-import numpy as np
 import itertools as it
 import os
 
-from manimlib.imports import *
+import numpy as np
 from from_3b1b.old.brachistochrone.drawing_images import sort_by_color
+from manimlib.imports import *
+
 
 class Intro(Scene):
     def construct(self):

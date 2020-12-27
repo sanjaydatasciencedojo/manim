@@ -2,18 +2,15 @@ import os
 import warnings
 
 import numpy as np
-
 from manimlib.constants import *
-from manimlib.mobject.mobject import Mobject
 from manimlib.mobject.geometry import Circle
+from manimlib.mobject.mobject import Mobject
 from manimlib.mobject.svg.drawings import ThoughtBubble
 from manimlib.mobject.svg.svg_mobject import SVGMobject
 from manimlib.mobject.svg.tex_mobject import TextMobject
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VMobject
+from manimlib.mobject.types.vectorized_mobject import VGroup, VMobject
 from manimlib.utils.config_ops import digest_config
-from manimlib.utils.space_ops import get_norm
-from manimlib.utils.space_ops import normalize
+from manimlib.utils.space_ops import get_norm, normalize
 
 pi_creature_dir_maybe = os.path.join(MEDIA_DIR, "assets", "PiCreature")
 if os.path.exists(pi_creature_dir_maybe):

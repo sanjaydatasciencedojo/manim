@@ -1,13 +1,13 @@
-import numpy as np
 import itertools as it
-from copy import deepcopy
 import sys
+from copy import deepcopy
 
+import numpy as np
 from constants import *
-
-from scene.scene import Scene
 from geometry import Polygon
-from mobject.region import  region_from_polygon_vertices, region_from_line_boundary
+from mobject.region import (region_from_line_boundary,
+                            region_from_polygon_vertices)
+from scene.scene import Scene
 
 A_COLOR = BLUE
 B_COLOR = MAROON_D

@@ -1,5 +1,6 @@
 from manimlib.imports import *
 
+
 class FractalCreation(Scene):
     CONFIG = {
         "fractal_class" : PentagonalFractal,

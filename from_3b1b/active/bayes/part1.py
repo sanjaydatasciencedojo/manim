@@ -1,6 +1,5 @@
-from manimlib.imports import *
-
 import scipy.integrate
+from manimlib.imports import *
 
 OUTPUT_DIRECTORY = "bayes/part1"
 

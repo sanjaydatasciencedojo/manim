@@ -1,5 +1,4 @@
 import numpy as np
-
 from manimlib.utils.bezier import bezier
 from manimlib.utils.simple_functions import sigmoid
 

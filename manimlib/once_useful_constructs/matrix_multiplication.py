@@ -1,12 +1,9 @@
 import numpy as np
-
 from manimlib.animation.creation import ShowCreation
 from manimlib.animation.fading import FadeOut
-from manimlib.animation.transform import ApplyMethod
-from manimlib.animation.transform import Transform
+from manimlib.animation.transform import ApplyMethod, Transform
 from manimlib.constants import *
-from manimlib.mobject.geometry import Circle
-from manimlib.mobject.geometry import Line
+from manimlib.mobject.geometry import Circle, Line
 from manimlib.mobject.matrix import Matrix
 from manimlib.mobject.svg.tex_mobject import TexMobject
 from manimlib.mobject.types.vectorized_mobject import VGroup

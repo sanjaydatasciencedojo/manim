@@ -1,12 +1,8 @@
-from manimlib.imports import *
 import displayer as disp
-
-from hilbert.curves import \
-    TransformOverIncreasingOrders, FlowSnake, HilbertCurve, \
-    SnakeCurve, Sierpinski
+from hilbert.curves import (FlowSnake, HilbertCurve, Sierpinski, SnakeCurve,
+                            TransformOverIncreasingOrders)
 from hilbert.section1 import get_mathy_and_bubble
-
-
+from manimlib.imports import *
 
 
 class SectionThree(Scene):

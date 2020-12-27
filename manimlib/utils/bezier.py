@@ -1,7 +1,6 @@
-from scipy import linalg
 import numpy as np
-
 from manimlib.utils.simple_functions import choose
+from scipy import linalg
 
 CLOSED_THRESHOLD = 0.001
 

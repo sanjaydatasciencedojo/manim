@@ -1,16 +1,15 @@
-import numpy as np
+import inspect
 import itertools as it
 import operator as op
-import sys
-import inspect
-from PIL import Image
-import cv2
 import random
-from scipy.spatial.distance import cdist
-from scipy import ndimage
+import sys
 
+import cv2
+import numpy as np
 from manimlib.imports import *
-
+from PIL import Image
+from scipy import ndimage
+from scipy.spatial.distance import cdist
 
 DEFAULT_GAUSS_BLUR_CONFIG = {
     "ksize"  : (5, 5), 

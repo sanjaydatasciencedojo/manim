@@ -2,18 +2,13 @@ import itertools as it
 import re
 import string
 import warnings
-
 from xml.dom import minidom
 
 from manimlib.constants import *
-from manimlib.mobject.geometry import Circle
-from manimlib.mobject.geometry import Rectangle
-from manimlib.mobject.geometry import RoundedRectangle
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VMobject
+from manimlib.mobject.geometry import Circle, Rectangle, RoundedRectangle
+from manimlib.mobject.types.vectorized_mobject import VGroup, VMobject
 from manimlib.utils.color import *
-from manimlib.utils.config_ops import digest_config
-from manimlib.utils.config_ops import digest_locals
+from manimlib.utils.config_ops import digest_config, digest_locals
 
 
 def string_to_numbers(num_string):

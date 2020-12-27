@@ -1,5 +1,5 @@
 from manimlib.imports import *
-       
+
 
 class IllustrateAreaModelBayes(Scene):
 

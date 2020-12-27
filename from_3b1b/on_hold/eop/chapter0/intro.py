@@ -1,5 +1,6 @@
 from manimlib.imports import *
 
+
 class Introduction(TeacherStudentsScene):
 
     CONFIG = {

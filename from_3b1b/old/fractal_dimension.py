@@ -1,6 +1,8 @@
 
-from manimlib.imports import *
 from functools import reduce
+
+from manimlib.imports import *
+
 
 def break_up(mobject, factor = 1.3):
     mobject.scale_in_place(factor)

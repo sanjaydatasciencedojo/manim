@@ -1,10 +1,10 @@
 import argparse
-import colour
 import importlib.util
 import os
 import sys
 import types
 
+import colour
 import manimlib.constants
 
 

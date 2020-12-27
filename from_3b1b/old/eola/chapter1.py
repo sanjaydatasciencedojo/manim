@@ -1,7 +1,7 @@
-from manimlib.imports import *
-from from_3b1b.old.eola.chapter0 import UpcomingSeriesOfVidoes
-
 import random
+
+from from_3b1b.old.eola.chapter0 import UpcomingSeriesOfVidoes
+from manimlib.imports import *
 
 
 def plane_wave_homotopy(x, y, z, t):

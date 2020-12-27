@@ -1,22 +1,20 @@
-import numpy as np
-from pydub import AudioSegment
+import _thread as thread
+import datetime
+import os
 import shutil
 import subprocess
-import os
-import _thread as thread
 from time import sleep
-import datetime
 
 import manimlib.constants as consts
-from manimlib.constants import FFMPEG_BIN
-from manimlib.constants import STREAMING_IP
-from manimlib.constants import STREAMING_PORT
-from manimlib.constants import STREAMING_PROTOCOL
+import numpy as np
+from manimlib.constants import (FFMPEG_BIN, STREAMING_IP, STREAMING_PORT,
+                                STREAMING_PROTOCOL)
 from manimlib.utils.config_ops import digest_config
-from manimlib.utils.file_ops import guarantee_existence
-from manimlib.utils.file_ops import add_extension_if_not_present
-from manimlib.utils.file_ops import get_sorted_integer_files
+from manimlib.utils.file_ops import (add_extension_if_not_present,
+                                     get_sorted_integer_files,
+                                     guarantee_existence)
 from manimlib.utils.sounds import get_full_sound_file_path
+from pydub import AudioSegment
 
 
 class SceneFileWriter(object):

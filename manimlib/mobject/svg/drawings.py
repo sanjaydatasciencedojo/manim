@@ -4,27 +4,19 @@ import string
 from manimlib.animation.animation import Animation
 from manimlib.animation.rotation import Rotating
 from manimlib.constants import *
-from manimlib.mobject.geometry import AnnularSector
-from manimlib.mobject.geometry import Arc
-from manimlib.mobject.geometry import Circle
-from manimlib.mobject.geometry import Line
-from manimlib.mobject.geometry import Polygon
-from manimlib.mobject.geometry import Rectangle
-from manimlib.mobject.geometry import Square
+from manimlib.mobject.geometry import (AnnularSector, Arc, Circle, Line,
+                                       Polygon, Rectangle, Square)
 from manimlib.mobject.mobject import Mobject
 from manimlib.mobject.svg.svg_mobject import SVGMobject
-from manimlib.mobject.svg.tex_mobject import TexMobject
-from manimlib.mobject.svg.tex_mobject import TextMobject
+from manimlib.mobject.svg.tex_mobject import TexMobject, TextMobject
 from manimlib.mobject.three_dimensions import Cube
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VMobject
-from manimlib.mobject.types.vectorized_mobject import VectorizedPoint
+from manimlib.mobject.types.vectorized_mobject import (VectorizedPoint, VGroup,
+                                                       VMobject)
 from manimlib.utils.bezier import interpolate
 from manimlib.utils.config_ops import digest_config
 from manimlib.utils.rate_functions import linear
-from manimlib.utils.space_ops import angle_of_vector
-from manimlib.utils.space_ops import complex_to_R3
-from manimlib.utils.space_ops import rotate_vector
+from manimlib.utils.space_ops import (angle_of_vector, complex_to_R3,
+                                      rotate_vector)
 
 
 class Lightbulb(SVGMobject):

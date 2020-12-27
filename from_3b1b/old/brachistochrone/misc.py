@@ -1,8 +1,9 @@
-import numpy as np
 import itertools as it
 
-from manimlib.imports import *
+import numpy as np
 from from_3b1b.old.brachistochrone.curves import Cycloid
+from manimlib.imports import *
+
 
 class PhysicalIntuition(Scene):
     def construct(self):

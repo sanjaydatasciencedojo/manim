@@ -1,34 +1,21 @@
 import numpy as np
-
 from manimlib.animation.animation import Animation
-from manimlib.animation.creation import ShowCreation
-from manimlib.animation.creation import Write
+from manimlib.animation.creation import ShowCreation, Write
 from manimlib.animation.fading import FadeOut
 from manimlib.animation.growing import GrowArrow
-from manimlib.animation.transform import ApplyFunction
-from manimlib.animation.transform import ApplyPointwiseFunction
-from manimlib.animation.transform import Transform
+from manimlib.animation.transform import (ApplyFunction,
+                                          ApplyPointwiseFunction, Transform)
 from manimlib.constants import *
-from manimlib.mobject.coordinate_systems import Axes
-from manimlib.mobject.coordinate_systems import NumberPlane
-from manimlib.mobject.geometry import Arrow
-from manimlib.mobject.geometry import Dot
-from manimlib.mobject.geometry import Line
-from manimlib.mobject.geometry import Rectangle
-from manimlib.mobject.geometry import Vector
-from manimlib.mobject.matrix import Matrix
-from manimlib.mobject.matrix import VECTOR_LABEL_SCALE_FACTOR
-from manimlib.mobject.matrix import vector_coordinate_label
+from manimlib.mobject.coordinate_systems import Axes, NumberPlane
+from manimlib.mobject.geometry import Arrow, Dot, Line, Rectangle, Vector
+from manimlib.mobject.matrix import (VECTOR_LABEL_SCALE_FACTOR, Matrix,
+                                     vector_coordinate_label)
 from manimlib.mobject.mobject import Mobject
-from manimlib.mobject.svg.tex_mobject import TexMobject
-from manimlib.mobject.svg.tex_mobject import TextMobject
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VMobject
+from manimlib.mobject.svg.tex_mobject import TexMobject, TextMobject
+from manimlib.mobject.types.vectorized_mobject import VGroup, VMobject
 from manimlib.scene.scene import Scene
-from manimlib.utils.rate_functions import rush_from
-from manimlib.utils.rate_functions import rush_into
-from manimlib.utils.space_ops import angle_of_vector
-from manimlib.utils.space_ops import get_norm
+from manimlib.utils.rate_functions import rush_from, rush_into
+from manimlib.utils.space_ops import angle_of_vector, get_norm
 
 X_COLOR = GREEN_C
 Y_COLOR = RED_C

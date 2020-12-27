@@ -1,4 +1,5 @@
 import fractions
+
 from manimlib.imports import *
 
 A_COLOR = BLUE

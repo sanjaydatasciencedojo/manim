@@ -1,5 +1,6 @@
-from manimlib.imports import *
 from functools import reduce
+
+from manimlib.imports import *
 
 # revert_to_original_skipping_status
 

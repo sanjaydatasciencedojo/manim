@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from manimlib.imports import *
 
+
 class Chapter7OpeningQuote(OpeningQuote):
     CONFIG = {
         "quote" : [

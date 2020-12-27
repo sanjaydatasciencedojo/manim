@@ -1,6 +1,6 @@
-from manimlib.imports import *
 from from_3b1b.old.eola.chapter5 import get_det_text
 from from_3b1b.old.eola.chapter8 import *
+from manimlib.imports import *
 
 
 class OpeningQuote(Scene):

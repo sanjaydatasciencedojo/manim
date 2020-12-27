@@ -1,5 +1,5 @@
-from manimlib.imports import *
 from from_3b1b.old.efvgt import get_confetti_animations
+from manimlib.imports import *
 
 
 class CrossingOneMillion(TeacherStudentsScene):

@@ -1,9 +1,9 @@
-import numpy as np
 import itertools as it
 
+import numpy as np
+from from_3b1b.old.brachistochrone.curves import Cycloid
 from manimlib.imports import *
 
-from from_3b1b.old.brachistochrone.curves import Cycloid
 
 class MultilayeredGlass(PhotonScene, ZoomedScene):
     CONFIG = {

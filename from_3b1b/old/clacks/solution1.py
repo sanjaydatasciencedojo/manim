@@ -1,7 +1,6 @@
-from manimlib.imports import *
 from from_3b1b.old.clacks.question import *
 from from_3b1b.old.div_curl import ShowTwoPopulations
-
+from manimlib.imports import *
 
 OUTPUT_DIRECTORY = "clacks/solution1"
 

@@ -1,9 +1,8 @@
-import numpy as np
 import os
 
-from PIL import Image
-
+import numpy as np
 from manimlib.utils.file_ops import seek_full_path_from_defaults
+from PIL import Image
 
 
 def get_full_raster_image_path(image_file_name):

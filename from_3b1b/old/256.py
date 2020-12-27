@@ -1,6 +1,7 @@
+from from_3b1b.old.crypto import (BitcoinLogo, bit_string_to_mobject,
+                                  sha256_tex_mob)
 from manimlib.imports import *
 
-from from_3b1b.old.crypto import sha256_tex_mob, bit_string_to_mobject, BitcoinLogo
 
 def get_google_logo():
     result = SVGMobject(

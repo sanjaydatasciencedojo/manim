@@ -1,17 +1,14 @@
 import numpy as np
-
 from manimlib.camera.camera import Camera
 from manimlib.constants import *
-from manimlib.mobject.three_d_utils import get_3d_vmob_end_corner
-from manimlib.mobject.three_d_utils import get_3d_vmob_end_corner_unit_normal
-from manimlib.mobject.three_d_utils import get_3d_vmob_start_corner
-from manimlib.mobject.three_d_utils import get_3d_vmob_start_corner_unit_normal
+from manimlib.mobject.three_d_utils import (
+    get_3d_vmob_end_corner, get_3d_vmob_end_corner_unit_normal,
+    get_3d_vmob_start_corner, get_3d_vmob_start_corner_unit_normal)
 from manimlib.mobject.types.point_cloud_mobject import Point
 from manimlib.mobject.value_tracker import ValueTracker
 from manimlib.utils.color import get_shaded_rgb
 from manimlib.utils.simple_functions import clip_in_place
-from manimlib.utils.space_ops import rotation_about_z
-from manimlib.utils.space_ops import rotation_matrix
+from manimlib.utils.space_ops import rotation_about_z, rotation_matrix
 
 
 class ThreeDCamera(Camera):

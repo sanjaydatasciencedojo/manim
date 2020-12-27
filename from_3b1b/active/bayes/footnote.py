@@ -1,8 +1,6 @@
+from from_3b1b.active.bayes.part1 import (BayesDiagram, LibrarianIcon, Person,
+                                          RandomnessVsProportions)
 from manimlib.imports import *
-from from_3b1b.active.bayes.part1 import BayesDiagram
-from from_3b1b.active.bayes.part1 import LibrarianIcon
-from from_3b1b.active.bayes.part1 import Person
-from from_3b1b.active.bayes.part1 import RandomnessVsProportions
 
 OUTPUT_DIRECTORY = "bayes/footnote"
 TEX_TO_COLOR_MAP = {

@@ -1,7 +1,6 @@
 
 from manimlib.imports import *
 
-
 # Quick note to anyone coming to this file with the
 # intent of recreating animations from the video.  Some
 # of these, especially those involving AnimatedStreamLines,

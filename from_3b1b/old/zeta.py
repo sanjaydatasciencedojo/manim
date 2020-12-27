@@ -1,7 +1,7 @@
 
+import mpmath
 from manimlib.imports import *
 
-import mpmath
 mpmath.mp.dps = 7
 
 

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-from constants import *
 import scipy.integrate
-
+from constants import *
 from manimlib.imports import *
 
 USE_ALMOST_FOURIER_BY_DEFAULT = True

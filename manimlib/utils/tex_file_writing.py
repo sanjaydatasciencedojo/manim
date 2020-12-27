@@ -1,11 +1,9 @@
-import os
 import hashlib
-
+import os
 from pathlib import Path
 
-from manimlib.constants import TEX_TEXT_TO_REPLACE
-from manimlib.constants import TEX_USE_CTEX
 import manimlib.constants as consts
+from manimlib.constants import TEX_TEXT_TO_REPLACE, TEX_USE_CTEX
 
 
 def tex_hash(expression, template_tex_file_body):

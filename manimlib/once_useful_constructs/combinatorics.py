@@ -1,10 +1,9 @@
 from manimlib.constants import *
 from manimlib.mobject.numbers import Integer
 from manimlib.mobject.svg.tex_mobject import TexMobject
-from manimlib.mobject.types.vectorized_mobject import VMobject, VGroup
+from manimlib.mobject.types.vectorized_mobject import VGroup, VMobject
 from manimlib.scene.scene import Scene
 from manimlib.utils.simple_functions import choose
-
 
 DEFAULT_COUNT_NUM_OFFSET = (FRAME_X_RADIUS - 1, FRAME_Y_RADIUS - 1, 0)
 DEFAULT_COUNT_RUN_TIME = 5.0

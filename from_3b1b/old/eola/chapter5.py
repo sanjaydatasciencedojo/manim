@@ -1,5 +1,5 @@
-from manimlib.imports import *
 from from_3b1b.old.eola.chapter3 import MatrixVectorMultiplicationAbstract
+from manimlib.imports import *
 
 
 class Blob(Circle):

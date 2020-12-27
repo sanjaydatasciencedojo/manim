@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
+import warnings
+
 from manimlib.imports import *
 from once_useful_constructs.light import *
 
-import warnings
 warnings.warn("""
     Warning: This file makes use of
     ContinualAnimation, which has since
@@ -13,8 +14,8 @@ warnings.warn("""
 """)
 
 
-import types
 import functools
+import types
 
 LIGHT_COLOR = YELLOW
 INDICATOR_RADIUS = 0.7

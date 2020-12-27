@@ -1,27 +1,21 @@
-from functools import reduce
 import copy
 import itertools as it
 import operator as op
 import os
 import random
 import sys
-
-from colour import Color
-import numpy as np
+from functools import reduce
 
 import manimlib.constants as consts
+import numpy as np
+from colour import Color
 from manimlib.constants import *
 from manimlib.container.container import Container
-from manimlib.utils.color import color_gradient
-from manimlib.utils.color import interpolate_color
-from manimlib.utils.iterables import list_update
-from manimlib.utils.iterables import remove_list_redundancies
+from manimlib.utils.color import color_gradient, interpolate_color
+from manimlib.utils.iterables import list_update, remove_list_redundancies
 from manimlib.utils.paths import straight_path
 from manimlib.utils.simple_functions import get_parameters
-from manimlib.utils.space_ops import angle_of_vector
-from manimlib.utils.space_ops import get_norm
-from manimlib.utils.space_ops import rotation_matrix
-
+from manimlib.utils.space_ops import angle_of_vector, get_norm, rotation_matrix
 
 # TODO: Explain array_attrs
 

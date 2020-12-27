@@ -1,11 +1,7 @@
 from functools import reduce
 
 import numpy as np
-
-from manimlib.constants import OUT
-from manimlib.constants import PI
-from manimlib.constants import RIGHT
-from manimlib.constants import TAU
+from manimlib.constants import OUT, PI, RIGHT, TAU
 from manimlib.utils.iterables import adjacent_pairs
 from manimlib.utils.simple_functions import fdiv
 

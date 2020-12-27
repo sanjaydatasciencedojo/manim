@@ -1,7 +1,7 @@
-from manimlib.imports import *
 import json
 import numbers
 
+from manimlib.imports import *
 
 OUTPUT_DIRECTORY = "spirals"
 INV_113_MOD_710 = 377  # Inverse of 113 mode 710

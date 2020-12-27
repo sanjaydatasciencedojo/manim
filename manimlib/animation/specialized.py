@@ -1,10 +1,8 @@
 import operator as op
 
 from manimlib.animation.composition import LaggedStart
-from manimlib.animation.transform import ApplyMethod
-from manimlib.animation.transform import Restore
-from manimlib.constants import WHITE
-from manimlib.constants import BLACK
+from manimlib.animation.transform import ApplyMethod, Restore
+from manimlib.constants import BLACK, WHITE
 from manimlib.mobject.geometry import Circle
 from manimlib.mobject.svg.drawings import Car
 from manimlib.mobject.types.vectorized_mobject import VGroup

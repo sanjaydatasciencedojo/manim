@@ -1,8 +1,8 @@
 
-from manimlib.imports import *
-from from_3b1b.old.eoc.chapter8 import *
-
 import scipy.special
+from from_3b1b.old.eoc.chapter8 import *
+from manimlib.imports import *
+
 
 class IllustrateAreaModelErf(GraphScene):
     CONFIG = {

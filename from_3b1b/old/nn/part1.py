@@ -1,11 +1,13 @@
-import sys
 import os.path
+import sys
+
 import cv2
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import warnings
+
 from manimlib.imports import *
 
-import warnings
 warnings.warn("""
     Warning: This file makes use of
     ContinualAnimation, which has since

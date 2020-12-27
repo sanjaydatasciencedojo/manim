@@ -1,6 +1,7 @@
 
 from manimlib.imports import *
 
+
 class WhatDoesItReallyMean(TeacherStudentsScene):
 
     CONFIG = {

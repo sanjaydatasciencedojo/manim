@@ -1,6 +1,6 @@
+from from_3b1b.old.eoc.chapter2 import (DISTANCE_COLOR, TIME_COLOR,
+                                        VELOCITY_COLOR, Car, MoveCar)
 from manimlib.imports import *
-from from_3b1b.old.eoc.chapter2 import DISTANCE_COLOR, TIME_COLOR, \
-    VELOCITY_COLOR, Car, MoveCar
 
 OUTPUT_COLOR = DISTANCE_COLOR
 INPUT_COLOR = TIME_COLOR

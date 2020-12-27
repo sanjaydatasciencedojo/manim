@@ -1,10 +1,9 @@
 
-import sys
 import os.path
+import sys
+
 import cv2
-
 from manimlib.imports import *
-
 from nn.network import *
 from nn.part1 import *
 

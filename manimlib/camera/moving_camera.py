@@ -1,8 +1,5 @@
 from manimlib.camera.camera import Camera
-from manimlib.constants import FRAME_HEIGHT
-from manimlib.constants import FRAME_WIDTH
-from manimlib.constants import ORIGIN
-from manimlib.constants import WHITE
+from manimlib.constants import FRAME_HEIGHT, FRAME_WIDTH, ORIGIN, WHITE
 from manimlib.mobject.frame import ScreenRectangle
 from manimlib.mobject.types.vectorized_mobject import VGroup
 from manimlib.utils.config_ops import digest_config

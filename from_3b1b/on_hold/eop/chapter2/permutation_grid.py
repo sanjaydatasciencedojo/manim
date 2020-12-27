@@ -1,5 +1,6 @@
 from manimlib.imports import *
 
+
 def print_permutation(index_list):
 
 

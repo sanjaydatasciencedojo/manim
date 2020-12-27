@@ -1,8 +1,6 @@
 from manimlib.constants import *
-from manimlib.mobject.geometry import Line
-from manimlib.mobject.geometry import Rectangle
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VMobject
+from manimlib.mobject.geometry import Line, Rectangle
+from manimlib.mobject.types.vectorized_mobject import VGroup, VMobject
 from manimlib.utils.color import Color
 from manimlib.utils.config_ops import digest_config
 

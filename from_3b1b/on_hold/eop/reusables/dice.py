@@ -1,6 +1,7 @@
-from mobject.svg.svg_mobject import *
 from mobject.geometry import *
 from mobject.numbers import *
+from mobject.svg.svg_mobject import *
+
 
 class DieFace(SVGMobject):
     

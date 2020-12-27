@@ -1,5 +1,4 @@
 import numpy as np
-
 from manimlib.animation.animation import Animation
 from manimlib.constants import *
 from manimlib.mobject.svg.tex_mobject import TexMobject

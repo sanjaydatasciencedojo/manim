@@ -1,29 +1,21 @@
 import random
 
 from manimlib.animation.composition import LaggedStartMap
-from manimlib.animation.creation import DrawBorderThenFill
-from manimlib.animation.creation import Write
-from manimlib.animation.fading import FadeIn
-from manimlib.animation.fading import FadeOut
+from manimlib.animation.creation import DrawBorderThenFill, Write
+from manimlib.animation.fading import FadeIn, FadeOut
 from manimlib.constants import *
-from manimlib.for_3b1b_videos.pi_creature import Mortimer
-from manimlib.for_3b1b_videos.pi_creature import Randolph
+from manimlib.for_3b1b_videos.pi_creature import Mortimer, Randolph
 from manimlib.for_3b1b_videos.pi_creature_animations import Blink
 from manimlib.for_3b1b_videos.pi_creature_scene import PiCreatureScene
-from manimlib.mobject.geometry import DashedLine
-from manimlib.mobject.geometry import Line
-from manimlib.mobject.geometry import Rectangle
-from manimlib.mobject.geometry import Square
-from manimlib.mobject.svg.drawings import Logo
-from manimlib.mobject.svg.drawings import PatreonLogo
+from manimlib.mobject.geometry import DashedLine, Line, Rectangle, Square
+from manimlib.mobject.mobject_update_utils import always_shift
+from manimlib.mobject.svg.drawings import Logo, PatreonLogo
 from manimlib.mobject.svg.tex_mobject import TextMobject
 from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.mobject_update_utils import always_shift
 from manimlib.scene.moving_camera_scene import MovingCameraScene
 from manimlib.scene.scene import Scene
 from manimlib.utils.rate_functions import linear
-from manimlib.utils.space_ops import get_norm
-from manimlib.utils.space_ops import normalize
+from manimlib.utils.space_ops import get_norm, normalize
 
 
 class OpeningQuote(Scene):

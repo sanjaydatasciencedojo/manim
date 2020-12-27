@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from manimlib.imports import *
-
 from from_3b1b.old.uncertainty import Flash
 from from_3b1b.old.WindingNumber import *
-
+from manimlib.imports import *
 
 # Warning, this file uses ContinualChangingDecimal,
 # which has since been been deprecated.  Use a mobject

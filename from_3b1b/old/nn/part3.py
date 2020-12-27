@@ -2,6 +2,7 @@ from nn.network import *
 from nn.part1 import *
 from nn.part2 import *
 
+
 class LayOutPlan(Scene):
     def construct(self):
         title = TextMobject("Plan")

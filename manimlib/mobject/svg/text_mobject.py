@@ -1,7 +1,8 @@
-import re
-import os
 import copy
 import hashlib
+import os
+import re
+
 import cairo
 import manimlib.constants as consts
 from manimlib.constants import *
@@ -10,7 +11,6 @@ from manimlib.mobject.geometry import Dot, Rectangle
 from manimlib.mobject.svg.svg_mobject import SVGMobject
 from manimlib.mobject.types.vectorized_mobject import VGroup
 from manimlib.utils.config_ops import digest_config
-
 
 TEXT_MOB_SCALE_FACTOR = 0.05
 

@@ -1,9 +1,12 @@
 import scipy
-from manimlib.imports import *
 from from_3b1b.old.eoc.chapter1 import Thumbnail as Chapter1Thumbnail
-from from_3b1b.old.eoc.chapter2 import Car, MoveCar, ShowSpeedometer, \
-    IncrementNumber, GraphCarTrajectory, SecantLineToTangentLine, \
-    VELOCITY_COLOR, TIME_COLOR, DISTANCE_COLOR
+from from_3b1b.old.eoc.chapter2 import (DISTANCE_COLOR, TIME_COLOR,
+                                        VELOCITY_COLOR, Car,
+                                        GraphCarTrajectory, IncrementNumber,
+                                        MoveCar, SecantLineToTangentLine,
+                                        ShowSpeedometer)
+from manimlib.imports import *
+
 
 def v_rate_func(t):
     return 4*t - 4*(t**2)

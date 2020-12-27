@@ -1,6 +1,5 @@
 from manimlib.imports import *
 
-
 # Warning, this file uses ContinualChangingDecimal,
 # which has since been been deprecated.  Use a mobject
 # updater instead

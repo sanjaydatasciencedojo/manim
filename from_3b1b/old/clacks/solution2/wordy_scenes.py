@@ -1,5 +1,6 @@
+from from_3b1b.old.clacks.solution2.position_phase_space import \
+    ShowMomentumConservation
 from manimlib.imports import *
-from from_3b1b.old.clacks.solution2.position_phase_space import ShowMomentumConservation
 
 
 class ConnectionToOptics(Scene):

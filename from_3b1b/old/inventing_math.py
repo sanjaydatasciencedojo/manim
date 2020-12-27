@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-import numpy as np
 import itertools as it
-from copy import deepcopy
-import sys
 import operator as op
+import sys
+from copy import deepcopy
+from functools import reduce
 from random import sample
 
+import numpy as np
 from manimlib.imports import *
 from script_wrapper import command_line_create_scene
-from functools import reduce
 
 # from inventing_math_images import *
 

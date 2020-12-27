@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-import numpy as np
 import itertools as it
-from copy import deepcopy
 import sys
-
-from manimlib.imports import *
+from copy import deepcopy
 from functools import reduce
+
+import numpy as np
+from manimlib.imports import *
 
 DEFAULT_PLANE_CONFIG = {
     "stroke_width" : 2*DEFAULT_STROKE_WIDTH

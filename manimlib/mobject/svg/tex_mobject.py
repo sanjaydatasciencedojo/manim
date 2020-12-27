@@ -1,16 +1,14 @@
-from functools import reduce
 import operator as op
+from functools import reduce
 
 from manimlib.constants import *
 from manimlib.mobject.geometry import Line
-from manimlib.mobject.svg.svg_mobject import SVGMobject
-from manimlib.mobject.svg.svg_mobject import VMobjectFromSVGPathstring
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VectorizedPoint
+from manimlib.mobject.svg.svg_mobject import (SVGMobject,
+                                              VMobjectFromSVGPathstring)
+from manimlib.mobject.types.vectorized_mobject import VectorizedPoint, VGroup
 from manimlib.utils.config_ops import digest_config
 from manimlib.utils.strings import split_string_list_to_isolate_substrings
 from manimlib.utils.tex_file_writing import tex_to_svg_file
-
 
 TEX_MOB_SCALE_FACTOR = 0.05
 

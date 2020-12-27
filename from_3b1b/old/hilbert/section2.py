@@ -1,9 +1,8 @@
-from manimlib.imports import *
 import displayer as disp
-from hilbert.curves import \
-    TransformOverIncreasingOrders, FlowSnake, HilbertCurve, \
-    SnakeCurve, PeanoCurve
+from hilbert.curves import (FlowSnake, HilbertCurve, PeanoCurve, SnakeCurve,
+                            TransformOverIncreasingOrders)
 from hilbert.section1 import get_mathy_and_bubble
+from manimlib.imports import *
 from scipy.spatial.distance import cdist
 
 

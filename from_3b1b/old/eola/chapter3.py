@@ -1,5 +1,6 @@
 from manimlib.imports import *
 
+
 def curvy_squish(point):
     x, y, z = point
     return (x+np.cos(y))*RIGHT + (y+np.sin(x))*UP

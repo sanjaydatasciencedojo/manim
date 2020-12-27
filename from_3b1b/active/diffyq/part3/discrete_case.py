@@ -1,5 +1,5 @@
-from manimlib.imports import *
 from active_projects.diffyq.part2.heat_equation import *
+from manimlib.imports import *
 
 
 class ShowNewRuleAtDiscreteBoundary(DiscreteSetup):

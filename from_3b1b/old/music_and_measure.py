@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 
 
-import numpy as np
 import itertools as it
-from copy import deepcopy
+import random
 import sys
+from copy import deepcopy
 from fractions import Fraction, gcd
 
+import numpy as np
 from manimlib.imports import *
-from .inventing_math import Underbrace
 
-import random
+from .inventing_math import Underbrace
 
 MOVIE_PREFIX = "music_and_measure/"
 

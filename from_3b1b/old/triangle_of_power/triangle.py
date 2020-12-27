@@ -1,6 +1,7 @@
 import numbers
-from manimlib.imports import *
 from functools import reduce
+
+from manimlib.imports import *
 
 OPERATION_COLORS = [YELLOW, GREEN, BLUE_B]
 

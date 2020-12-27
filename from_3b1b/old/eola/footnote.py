@@ -1,5 +1,7 @@
-from manimlib.imports import *
 from functools import reduce
+
+from manimlib.imports import *
+
 
 class OpeningQuote(Scene):
     def construct(self):

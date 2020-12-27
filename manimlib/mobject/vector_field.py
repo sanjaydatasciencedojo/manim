@@ -1,24 +1,21 @@
-import numpy as np
-import os
 import itertools as it
-from PIL import Image
+import os
 import random
 
-from manimlib.constants import *
-
+import numpy as np
 from manimlib.animation.composition import AnimationGroup
 from manimlib.animation.indication import ShowPassingFlash
+from manimlib.constants import *
 from manimlib.mobject.geometry import Vector
-from manimlib.mobject.types.vectorized_mobject import VGroup
-from manimlib.mobject.types.vectorized_mobject import VMobject
-from manimlib.utils.bezier import inverse_interpolate
-from manimlib.utils.bezier import interpolate
-from manimlib.utils.color import color_to_rgb
-from manimlib.utils.color import rgb_to_color
+from manimlib.mobject.types.vectorized_mobject import VGroup, VMobject
+from manimlib.utils.bezier import interpolate, inverse_interpolate
+from manimlib.utils.color import color_to_rgb, rgb_to_color
 from manimlib.utils.config_ops import digest_config
 from manimlib.utils.rate_functions import linear
 from manimlib.utils.simple_functions import sigmoid
 from manimlib.utils.space_ops import get_norm
+from PIL import Image
+
 # from manimlib.utils.space_ops import normalize
 
 

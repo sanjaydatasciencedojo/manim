@@ -1,9 +1,10 @@
-from manimlib.imports import *
 from from_3b1b.old.eola.chapter1 import plane_wave_homotopy
 from from_3b1b.old.eola.chapter3 import ColumnsToBasisVectors
-from from_3b1b.old.eola.chapter5 import NameDeterminant, Blob
+from from_3b1b.old.eola.chapter5 import Blob, NameDeterminant
 from from_3b1b.old.eola.chapter9 import get_small_bubble
 from from_3b1b.old.eola.chapter10 import ExampleTranformationScene
+from manimlib.imports import *
+
 
 class Student(PiCreature):
     CONFIG = {

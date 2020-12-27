@@ -1,11 +1,8 @@
 from manimlib.animation.creation import ShowCreation
 from manimlib.animation.fading import FadeIn
-from manimlib.animation.transform import MoveToTarget
-from manimlib.animation.transform import Transform
+from manimlib.animation.transform import MoveToTarget, Transform
 from manimlib.constants import *
-from manimlib.mobject.geometry import Arrow
-from manimlib.mobject.geometry import Circle
-from manimlib.mobject.geometry import Dot
+from manimlib.mobject.geometry import Arrow, Circle, Dot
 from manimlib.mobject.svg.tex_mobject import TexMobject
 from manimlib.mobject.types.vectorized_mobject import VGroup
 from manimlib.scene.scene import Scene
